@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/countryTextView"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Ukraine" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/countryEmojiTextView"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Headline4"
+        app:layout_constraintStart_toEndOf="@id/countryTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/nativeLabel"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Overline"
+        app:layout_constraintTop_toBottomOf="@id/countryTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/nativ" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/nativeTextView"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+        app:layout_constraintStart_toEndOf="@id/nativeLabel"
+        app:layout_constraintTop_toTopOf="@id/nativeLabel"
+        app:layout_constraintBottom_toBottomOf="@id/nativeLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Україна" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/phoneLabel"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Overline"
+        app:layout_constraintTop_toBottomOf="@id/nativeTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/phone" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/phoneTextView"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+        app:layout_constraintStart_toEndOf="@id/phoneLabel"
+        app:layout_constraintTop_toTopOf="@id/phoneLabel"
+        app:layout_constraintBottom_toBottomOf="@id/phoneLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="380" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/capitalLabel"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Overline"
+        app:layout_constraintTop_toBottomOf="@id/phoneTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/capital" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/capitalTextView"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+        app:layout_constraintStart_toEndOf="@id/capitalLabel"
+        app:layout_constraintTop_toTopOf="@id/capitalLabel"
+        app:layout_constraintBottom_toBottomOf="@id/capitalLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Kiev" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/currencyLabel"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Overline"
+        app:layout_constraintTop_toBottomOf="@id/capitalTextView"
+        app:layout_constraintStart_toStartOf="parent"
+       android:text="@string/Currency" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/currencyTextView"
+        android:textAppearance="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+        app:layout_constraintStart_toEndOf="@id/currencyLabel"
+        app:layout_constraintTop_toTopOf="@id/currencyLabel"
+        app:layout_constraintBottom_toBottomOf="@id/currencyLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="UAH" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

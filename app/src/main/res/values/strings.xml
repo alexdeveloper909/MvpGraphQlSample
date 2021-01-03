@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InterviewProjectMVPCountries</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nativ">Native:</string>
+    <string name="phone">Phone:</string>
+    <string name="capital">Capital:</string>
+    <string name="Currency">Currency:</string>
+</resources>
